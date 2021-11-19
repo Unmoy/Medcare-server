@@ -16,7 +16,7 @@ const client = new MongoClient(uri, {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("This is 'Medcare' website server");
 });
 
 client.connect((err) => {
